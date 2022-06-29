@@ -133,10 +133,9 @@ nav>ul:first-child {
     border: 10px solid #463333;
     background-color: #835858;
     /* properti pendukung */
-    max-width: 100%;
+    max-width: 90%;
     text-align: left;
     padding-top: 10px;
-    margin-left: 5%;
     margin-bottom: 20px;
 }
 
@@ -347,10 +346,17 @@ footer {
       width: 100%;
       padding: 0;
     }
-  
-    nav>ul:first-child {
-        margin-left: 0px;
+
+    nav li {
+        display: inline;
+        list-style-type: none;
+        margin-right: 10px;
     }
+  
+nav>ul:first-child {
+    margin-left: 0px;
+}
+
 
   .jumbotron .flex-container {
     flex-direction: column-reverse;
