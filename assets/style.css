@@ -348,11 +348,10 @@ footer {
       padding: 0;
     }
   
-    nav li {
-        display: inline;
-        list-style-type: none;
-        margin-right: 10px;
+    nav>ul:first-child {
+        margin-left: 0px;
     }
+
   .jumbotron .flex-container {
     flex-direction: column-reverse;
     width: 100%px;
