@@ -342,12 +342,17 @@ footer {
     font-weight: bold;
 }
 @media screen and (max-width: 700px) {
-    #content,
+      #content,
     aside {
       width: 100%;
       padding: 0;
     }
   
+    nav li {
+        display: inline;
+        list-style-type: none;
+        margin-right: 10px;
+    }
   .jumbotron .flex-container {
     flex-direction: column-reverse;
     width: 100%px;
