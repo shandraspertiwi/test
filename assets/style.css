@@ -110,7 +110,7 @@ nav>ul:first-child {
     background-color: #2980B9;
   }
 .bawah {
-    position: absolute;
+    position: sticky;
     bottom: 0;
     right: 0;
 }
