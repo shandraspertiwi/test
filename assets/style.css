@@ -159,12 +159,12 @@ main.flex-container {
     max-width: 100%;
     text-align: left;
     margin: auto;
+    flex-direction: column;
 
 }
 
 .flex-container-column {
     flex-direction: column;
-    flex-grow: 1;
  
 }
 
@@ -174,8 +174,8 @@ main.flex-container {
 
 .flex-section {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
+    width: 10%;
 }
 
 .no-flex {
@@ -183,8 +183,7 @@ main.flex-container {
 }
 
 .section-item {
-    flex-grow: 1;
-    flex-basis: 100%;
+    flex-direction: column;
     padding: 10px;
     margin: 20px;
     background-color: #EBD4D4;
